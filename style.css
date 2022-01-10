@@ -1,22 +1,30 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: pink;
-  /* padding: 0; */
   margin: 0;
 }
 
+.left-bar, .right-bar {
+  flex: 1;
+}
+
+.center-column {
+  flex: 6;
+}
+
 .hero {
+  display: flex;
   background-color: #1F2937;
   color: #F9FAF8;
 }
 
 .header {
+  margin-top: 12px;
   display: flex;
-  background-color:blueviolet;
-  justify-content: center;
+  align-items: baseline;
 }
 
 .header-logo {
+  font-weight: 700;
   font-size: 24px;
   flex: 1;
 }
@@ -25,17 +33,73 @@ body {
   display: flex;
   flex: 1;
   justify-content: flex-end;
+  align-items: end;
 }
 
 .link-nav-container a {
   text-decoration: none;
+  margin-left: 10px;
   color: #E5E7EB;
-  margin-right: 12px;
   font-size: 18px;
+  font-weight: 300;
   flex-shrink: 0;
-  align-items:baseline
 }
 
-.hero p {
+.link-nav-container a:hover {
+  color: white;
+}
 
+.hero-main {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+
+}
+
+.hero-item {
+  flex: 1;
+}
+
+.hero-item h1 {
+  font-size: 48px;
+  margin: 0;
+  margin-right: 50;
+}
+
+.hero-item p {
+  margin-right: 50px;
+  color: #E5E7EB;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.hero-item button {
+  margin-top: 20px;
+  background-color: #3882f6;
+  color: white;
+  border: 0px;
+  border-radius: 12px;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hero-item button:hover {
+  color: #E5E7EB;
+}
+
+.hero-image {
+ width: 100%;
+ margin: 20px;
+ border-radius: 4px;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.information h2 {
+  text-align: center;
 }
