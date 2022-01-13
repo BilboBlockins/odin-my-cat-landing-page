@@ -55,7 +55,6 @@ body {
   padding-top: 80px;
   padding-bottom: 120px;
   display: flex;
-
 }
 
 .hero-item {
@@ -95,7 +94,7 @@ body {
 .hero-image {
   display: block;
   margin-left: auto;
-  /*object-fit: cover;*/
+  /*object-fit: cover;*//*Nice way of cropping images hxw*/
   margin-top: 10px;
   width: 95%;
   /*height: 300px;*/
@@ -242,7 +241,6 @@ body {
   color: #E5E7EB;
   border: 2px solid #E5E7EB;
 }
-
 
 .pad-side {
   flex: 1;
